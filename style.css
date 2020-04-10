@@ -1,0 +1,88 @@
+/**/
+
+p{
+    font-size: 200%;
+    color:#0000ff;
+    font-family:cursive;
+
+}
+h1{
+  font-size: 400%;
+  color:rgb(250, 27, 27);
+  font-family:fantasy;
+}
+h2{
+  text-align: center;
+    color:blue;
+    font-size:900%;
+    font-family: sans-serif;
+
+}
+.my-div{
+  
+  width: 300px;
+  height: 400px;
+  background-color: green;
+
+}
+
+#my-inside{
+  width: 80%;
+  background-color: yellow;
+
+}
+
+.my-inside-vis{
+  width: 80%;
+  height: 50%;
+  background-color: blue;
+
+}
+
+body{
+  background-color: lightgray;
+}
+
+.my_favorite{
+  display:inline-block;
+  width: 800px;
+  height: 400px;
+background-color: gray;
+background-image: url(https://dummyimage.com/300x180/555/fff.png );
+background-size: 800px 400px;
+}
+
+.qq{
+text-align: center;
+}
+
+.film1{
+background-image: url("https://img2.goodfon.ru/original/1920x1080/8/e2/overwatch-tracer-treyser-5180.jpg");
+}
+
+.film2{
+  background-image: url("https://avatars.mds.yandex.net/get-pdb/1927573/f8436ca3-c125-463f-a67f-18f18d2edeaa/s1200?webp=false");
+}
+
+.film3{
+  background-image: url("https://www.progamer.ru/uploads/2016/06/overwatch-mercy.jpg");
+}
+
+.film4{
+  background-image: url("https://stopga.me/images/news/2018/02/02/ZAMiPzhU.jpg");
+}
+
+.human{
+  background-image: url("https://my.informatics.ru/media/ck_uploads/shelamov_va/2017/04/05/aliman.jpg");
+width: 400;
+height: 400;
+}
+
+.flag{
+  background-image: url("http://risovach.ru/upload/2013/10/mem/kupr_31860699_orig_.jpeg");
+width: 60;
+height: 60;
+}
+.vita{
+  background-image: url("http://risovach.ru/upload/2013/10/mem/kupr_31860699_orig_.jpeg");
+}
