@@ -1,88 +1,558 @@
-/**/
+@keyframes anim{
+    from{
+   transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 
-p{
-    font-size: 200%;
-    color:#0000ff;
-    font-family:cursive;
 
 }
+
+.medal{
+    width: 124px;
+    height: 124px;
+    background-image: url(https://cdn.discordapp.com/attachments/490474925740523541/714887588808360036/1599-i-com.png);
+    animation: anim 10s ;
+    animation-iteration-count: infinite;
+    display: inline-block;
+}
+
+.spag:hover{
+color: wheat;
+}
+.foto2{
+  width: 640px;
+  height: 360px;
+}
+
+.logo2{
+    
+   
+    color:wheat;
+    font-size: 80px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    
+
+}
+
 h1{
-  font-size: 400%;
-  color:rgb(250, 27, 27);
-  font-family:fantasy;
-}
-h2{
-  text-align: center;
-    color:blue;
-    font-size:900%;
-    font-family: sans-serif;
-
-}
-.my-div{
-  
-  width: 300px;
-  height: 400px;
-  background-color: green;
+   
+    color: rgb(224, 153, 20);
+    font-size: 80px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px 10px rgb(32, 32, 32);
 
 }
 
-#my-inside{
-  width: 80%;
-  background-color: yellow;
+/*Описание классов атаки*/
+
+.raz{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.raz2{
+    width: 360px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.raz3{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.raz4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
 
 }
 
-.my-inside-vis{
-  width: 80%;
-  height: 50%;
-  background-color: blue;
+.pyr{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.pyr2{
+    width: 290px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.pyr3{
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.pyr4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
 
 }
 
+.dat{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.dat2{
+    width: 290px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.dat3{
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.dat4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+/*Описание классов атаки*/
+
+/*Описание классов защиты*/
+
+.dem{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.dem2{
+    width: 290px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.dem3{
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.dem4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.heav{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.heav2{
+    width: 290px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.heav3{
+    width: 280px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.heav4{
+    width: 270px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.ein{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.ein2{
+    width: 330px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.ein3{
+    width: 260px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.ein4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.ein5{
+    width: 270px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.ein6{
+    width: 280px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.ein7{
+    width: 280px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.ein8{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+/*Описание классов защиты*/
+
+/*Описание классов поддержки*/
+.snip{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.snip2{
+    width: 290px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.snip3{
+    width: 320px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.snip4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.med{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.med2{
+    width: 290px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.med3{
+    width: 280px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.med4{
+    width: 270px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.sp{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.sp2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.sp3{
+    width: 260px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+.sp4{
+    width: 240px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.sp5{
+    width: 150px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+
+.sp6{
+    width: 280px;
+    height: 200px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(61, 56, 56);
+}
+/*Описание классов поддержки*/
+
+
+.sold{
+    width: 55px;
+    height: 65px;
+}
+.his{
+    background-color: rgb(238, 175, 58);
+}
+.his:hover{
+
+    background-color:/*rgb(49, 44, 44);*/ wheat;
+}
+
+
+a{
+    color:rgb(116, 72, 15);
+    text-decoration: none;
+}
 body{
-  background-color: lightgray;
+    background-image:url("https://cdn.discordapp.com/attachments/490474925740523541/712958061051904052/original_8435_oboi_bezhevaja_stena_2560x1600.jpg");
+
+    background-size: cover;
+    display: flex;
+
 }
 
-.my_favorite{
-  display:inline-block;
-  width: 800px;
-  height: 400px;
-background-color: gray;
-background-image: url(https://dummyimage.com/300x180/555/fff.png );
-background-size: 800px 400px;
+
+.logo{
+    width: 750px;
+    height: 250px;
+
 }
 
-.qq{
-text-align: center;
+section {
+    
+    border: 2px solid black;
+    padding: 30px;
+    width: 1300px;
+    margin: 0 auto;
+    background-color:rgb(49, 44, 44);
 }
 
-.film1{
-background-image: url("https://img2.goodfon.ru/original/1920x1080/8/e2/overwatch-tracer-treyser-5180.jpg");
+
+
+
+/*.flex-cont {
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    margin: 0px;
+}*/
+
+.foto{
+    width: 540px;
+    height: 320px;
+    margin: 8px;
 }
 
-.film2{
-  background-image: url("https://avatars.mds.yandex.net/get-pdb/1927573/f8436ca3-c125-463f-a67f-18f18d2edeaa/s1200?webp=false");
+h6{
+    font-size: 30px;
+    color:orange;
+    margin: 6px;
+    font-family:Arial Black;
+}
+p{
+    color: orange;
+    font-size: 25px ;
+    padding: 5px;
+    font-family:Impact;
+    letter-spacing: 1,5px;
 }
 
-.film3{
-  background-image: url("https://www.progamer.ru/uploads/2016/06/overwatch-mercy.jpg");
+h3{
+    color: wheat;
+    font-size: 60px;
+    font-family:Arial Black;
+    margin: 0 auto;
 }
 
-.film4{
-  background-image: url("https://stopga.me/images/news/2018/02/02/ZAMiPzhU.jpg");
+
+
+
+ul {
+    display: flex;
+    list-style: none;
 }
 
-.human{
-  background-image: url("https://my.informatics.ru/media/ck_uploads/shelamov_va/2017/04/05/aliman.jpg");
-width: 400;
-height: 400;
+
+li {
+    border: 5px solid orange;
+    padding: 10px;
+    font-size: 34px;
+    color: white;
+    margin: 20px;
+    font-weight: 200px;
+    font-family:Arial Black;
+    background-color:/*rgb(49, 44, 44);*/ wheat;
 }
 
-.flag{
-  background-image: url("http://risovach.ru/upload/2013/10/mem/kupr_31860699_orig_.jpeg");
-width: 60;
-height: 60;
+.firsthead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.vita{
-  background-image: url("http://risovach.ru/upload/2013/10/mem/kupr_31860699_orig_.jpeg");
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    font-size: 30px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.foot{
+    font-size: 20px;
+    font-family:Arial Black;
+    color:wheat;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.foota{
+
+ color:wheat;
+}
+.foota:hover{
+    color:rgb(201, 187, 187);
+}
+.rub{
+    width: 75px;
+    height: 75px;
+    border: 3px solid orange;
+    margin: 0 auto;
 }
